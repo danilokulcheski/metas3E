@@ -84,4 +84,8 @@ body {
             border-radius: 0 40px 0 0;
         }
     }
+ /*Aula 04*/
+ .abas-textos{
+    background-color: var(--texto-fundo);
+}
 
