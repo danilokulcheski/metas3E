@@ -54,7 +54,7 @@ body {
 }
 
 .botoes {
-    display: flex;
+    display: block;
 }
 
 /*Aula 03*/
