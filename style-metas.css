@@ -23,6 +23,7 @@ body {
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+
 }
 
 .titulo-principal {
@@ -77,10 +78,6 @@ body {
     @media screen and(min-widht: 768px) {
         .botoes {
             display: flex;
-        }
-
-        .botao:first-child {
-            border-radius: 40px 0 0 0;
         }
 
         .botao:last-child {
