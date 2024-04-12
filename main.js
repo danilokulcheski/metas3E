@@ -42,3 +42,9 @@ return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + 
     return " PRAZO ENCERRADO!!! "
 }
 }
+
+function atualizaCronometro(){
+    atualizaCronometro();
+    setInterval(atualizaCronometro, 1000);
+}
+comecaCronometro();
