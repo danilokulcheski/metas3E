@@ -43,10 +43,13 @@ return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + 
 }
 }
 
-function atualizaCronometro();
+function atualizaCronometro(){
 //laço de repetição para interagir com todos os objetivos
-for (let i = 0; i < contadores.length; i++){}
+for (let i = 0; i < contadores.length; i++){
+    contadores[i].textContent = calculaTempo(tempo[i]);
+    }
 
+}
 
 function comecaCronometro(){
     atualizaCronometro();
